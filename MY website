@@ -1,1 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <div class="container">
+    <div class="navbar">
+      <header>
+        <style>
+          div {
+            text-align: left;
+          background-color: green;
+        }
+          </style>
+          <div onclick="menu.hidden=!menu.hidden" class="homb-icon">
+            &#9776;
+          </div>
+        </header>
+        <nav id="menu" hidden>
+          <a style="padding-right:20px;"href="home.html">home</a>
+          <a style="padding-right:20px;"href="about.html">about</apadding-right:20px;>
+          <a style="padding-right:20px;" href="service.html">service</a>
+          <a href="contact.html">contact</a>
+        </nav>
+      </dvi>
+      <header>
+      <script src="script.js"></script>
+        <h1>Welcome to My Web Page</h1>
+      </header>
+      <main>
+        <p>
+          This is a sample page to showcase HTML, CSS, and JavaScript integration.
+        </p>
+        <button id="changeColorButton">Change Background Color</button>
+      </main>
+      <footer>
+        <p>
+          &copy; 2026 My Website. All rights reserved.
+        </p>
+      </footer>
+<head>
+      <style>
+        /* Reset some default styles */
+        * {
+          margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+/* Main Content Styles */
+main {
+    text-align: center;
+    margin-top: 40px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f73;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.8rem;
+    color: #888;
+}
+        </style>
+        <script>
+          // Function to change the background color of the body when the button is clicked
+          document.getElementById("changeColorButton").addEventListener("click", function() {
+            const colors = ["#FF5733", "#33FF57", "#3357FF", "#F4F4F4", "#FFC300"];
+            const randomColor = colors[Math.floor(Math.random() * colors.length)];
+            document.body.style.backgroundColor = randomColor;
+          });
+
+        </script>
+     
+
+      </body>
+
+
+    </form>
+
+  </body>
+</html>
